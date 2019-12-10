@@ -1,9 +1,8 @@
 // PLUGIN GRADLE EXTENSIONS START
 repositories {
-    google()
-    jcenter()
-	maven { url 'http://mobile-sdk.jumio.com' }
+	jcenter()
     maven { url 'https://maven.google.com/' }
+    maven { url 'https://mobile-sdk.jumio.com' }
 }
 
 ext {
