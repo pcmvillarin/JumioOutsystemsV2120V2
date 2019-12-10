@@ -1,4 +1,9 @@
 // PLUGIN GRADLE EXTENSIONS START
+android {
+    defaultConfig {
+        multiDexEnabled true
+    }
+}
 repositories {
 	jcenter()
     maven { url 'https://maven.google.com/' }
